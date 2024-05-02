@@ -13,10 +13,8 @@ function Navbar() {
 
   return (
     <div className="navbar-section">
-      <h1 className="navbar-title">
-        <a href="#">
-          <img src={Logo} width={200} alt="Website's Logo" />
-        </a>
+      <h1 className="navbar-title font-bold	text-3xl">
+        AyurBot
       </h1>
 
       {/* Desktop */}
@@ -29,11 +27,6 @@ function Navbar() {
         <li>
           <a href="#services" className="navbar-links">
             Services
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="navbar-links">
-            About
           </a>
         </li>
       </ul>
@@ -55,12 +48,7 @@ function Navbar() {
               Services
             </a>
           </li>
-          <li>
-            <a onClick={openNav} href="#about">
-              About
-            </a>
-          </li>
-        </ul>
+          </ul>
       </div>
 
       {/* Hamburger Icon */}

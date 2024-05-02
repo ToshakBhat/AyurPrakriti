@@ -17,7 +17,6 @@ function App() {
         <Front />
         <ChatbotButton />
         <Info />
-        <About />
         <Footer />
       </ChatbotOpen.Provider>
     </div>
