@@ -1,5 +1,5 @@
 import "./App.css";
-import About from "./Components/About";
+
 import { ChatbotButton } from "./Components/ChatbotButton";
 import Footer from "./Components/Footer";
 import Front from "./Components/Front";
